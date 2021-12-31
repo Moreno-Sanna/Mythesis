@@ -405,7 +405,7 @@ Accuracy1<- sum(diag(table(as.factor(yTots[indTeTs]),y.svms)))/sum(length(y.svms
 Accuracy1vs0<- Accuracy1-0.5
 
 #Curva Roc
-obj_roc <- roc.curve(as.factor(yTots[indTeTs]), y.svms, xlab="1-Specificità", ylab="Sensibilità", main="Curva Roc")
+obj_roc <- roc.curve(as.factor(yTots[indTeTs]), y.svms, xlab="1-SpecificitÃ ", ylab="SensibilitÃ ", main="Curva Roc")
 obj_roc$auc-0.5
 
 metriches <-matrix(0,2,2)
