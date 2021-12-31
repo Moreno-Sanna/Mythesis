@@ -1,6 +1,5 @@
 library(stringr)
 
-##Calcolo Retweet
 #Load Retweets matrix out of the file 4_Union Tweets_extraction datasets.R  
 load(file="R/TweetBMWRT.R")
 
