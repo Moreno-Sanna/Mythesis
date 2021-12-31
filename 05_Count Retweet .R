@@ -1,7 +1,9 @@
+#Script to count retweet
+#Load Library
 library(stringr)
 
 #Load Retweets matrix out of the file 4_Union Tweets_extraction datasets.R  
-load(file="R/TweetBMWRT.R")
+load(file="####")
 
 #Create a key for count the retweets shared every day, concatenating date of creation and original tweet id 
 
